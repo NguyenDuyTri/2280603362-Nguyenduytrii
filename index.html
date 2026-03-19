@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>bt-docker</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        padding: 48px 20px;
+        line-height: 1.5;
+      }
+      .card {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 24px;
+        border: 1px solid rgba(127,127,127,0.3);
+        border-radius: 12px;
+      }
+      code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>bt-docker</h1>
+      <p>This container is running and serving a static page via <code>nginx</code>.</p>
+      <ul>
+        <li><strong>docker build</strong>: builds an image from <code>Dockerfile</code></li>
+        <li><strong>docker run</strong>: runs the built image and maps a port</li>
+        <li><strong>docker compose</strong>: starts the same thing using <code>docker-compose.yml</code></li>
+      </ul>
+    </div>
+  </body>
+</html>
